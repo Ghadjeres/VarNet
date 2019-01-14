@@ -1,6 +1,6 @@
 # Variation Network
 Implementation of the "Variation Network: Learning High-level Attributes for Controlled Input 
-Manipulation" [paper](https://link.springer.com/article/10.1007/s00521-018-3868-4).
+Manipulation" [paper](https://arxiv.org/abs/1901.03634).
 
 Uses Python 3.6, PyTorch 1.0, Visdom. 
 ## Usage
