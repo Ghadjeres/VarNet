@@ -2,7 +2,8 @@
 Implementation of the "Variation Network: Learning High-level Attributes for Controlled Input 
 Manipulation" [paper](https://arxiv.org/abs/1901.03634).
 
-Uses Python 3.6, PyTorch 1.0, Visdom. 
+Uses Python 3.6, PyTorch 1.0, Visdom and torchkit from [https://github.com/CW-Huang/torchkit](https://github.com/CW-Huang/torchkit).
+
 ## Usage
 The `environment.yml` file contains a Anaconda virtual environment you can create and load with
 ```bash
