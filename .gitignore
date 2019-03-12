@@ -1,3 +1,4 @@
 logs/
 models/
 *.pyc
+.idea/

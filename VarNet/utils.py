@@ -87,7 +87,7 @@ def mmd_loss(weights, chorale, z_tilde, z, coeff=10):
     z_tilde_z_tilde_ker = compute_kernel(z_tilde, z_tilde, k)
     z_z_tilde_ker = compute_kernel(z, z_tilde, k)
 
-    first_coefs = 1. / (batch_size * (batch_size - 1)) / 2
+    first_coefs = 1. / (batch_size * (batch_size - 1))
     second_coef = 2 / (batch_size * batch_size)
     mmd = coeff * (first_coefs * zz_ker
                    + first_coefs * z_tilde_z_tilde_ker
